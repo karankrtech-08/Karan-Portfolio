@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Karan Kumar - Data Analyst</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading</div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-dot"></span>
+                <span class="brand-text">Karan Kumar</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My <span class="gradient-text">Projects</span></h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <span>/</span> Projects
+            </div>
+        </div>
+    </section>
+
+    <!-- FILTER SECTION -->
+    <section class="project-filters">
+        <div class="container">
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="powerbi">Power BI</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="sql">SQL</button>
+                <button class="filter-btn" data-filter="tableau">Tableau</button>
+                <button class="filter-btn" data-filter="excel">Excel</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALL PROJECTS SECTION -->
+    <section class="all-projects">
+        <div class="container">
+            <div class="row g-4" id="projectsContainer">
+                <!-- Project 1 - Power BI -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="powerbi" data-aos="zoom-in">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/Meta Ad performance.png" alt="Sales Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://www.linkedin.com/posts/karan-kumar-595424287_powerbi-metaads-dataanalytics-activity-7448635913666080769-uIFS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWm4EEBPeW_YkedeUca36TyjvM_eHEplEU" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/karankrtech-08/Meta-Ad-Performance-Analysis" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Meta Ad Performance Dashboard</h3>
+                            <p>Interactive Power BI dashboard for Meta Ads campaign performance analysis using DAX measures. Tracks impressions, clicks, CTR, engagement, conversions, purchases, and budget performance with dynamic filtering and KPI insights.</p>
+                            <div class="project-tech">
+                                <span>Excel</span>
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - Power Bi -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="python" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/Project 1 Customer behavoir Dashbard.png" alt="Customer Behavior Analytics Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://www.linkedin.com/posts/karan-kumar-595424287_dataanalytics-python-sql-activity-7457120192792379392-1Rxn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWm4EEBPeW_YkedeUca36TyjvM_eHEplEU" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/karankrtech-08/-Customer-Shopping-Behavior-Analysis" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Customer Behavior Analytics Dashboard</h3>
+                            <p>Built an industry-level Data Analytics project using Python, PostgreSQL, Power BI, and DAX to analyze customer behavior and generate business insights through interactive dashboards.</p>
+                            <div class="project-tech">
+                                <span>Excel</span>
+                                <span>Python</span>
+                                <span>PostgreSQL</span>
+                                <span>power Bi</span>
+                                <span>DAX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - PowerBi -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="sql" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/HR  Analytics Dashboard.png" alt="HR Analytics Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>HR Analytics Dashboard</h3>
+                            <p>Built an HR Analytics Dashboard with Power BI, DAX, and Excel, delivering insights into attrition, employee demographics, job satisfaction, and workforce performance through interactive KPI-driven reports</p>
+                            <div class="project-tech">
+                                <span>Excel</span>
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - SQL -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="python" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/postgre sql project.png" alt="COVID-19 Analysis">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>COVID-19 Data Analysis</h3>
+                            <p>Exploratory data analysis of pandemic trends using Python visualization libraries and statistical modeling.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                                <span>Plotly</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 - Python -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="excel" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/BilnkIT.png" alt="Blinkit Sales Data Analysis">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://www.linkedin.com/posts/karan-kumar-595424287_blinkit-sales-data-analysis-python-activity-7436088134662254592-gc97?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWm4EEBPeW_YkedeUca36TyjvM_eHEplEU" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/karankrtech-08/blinkit-data-analysis-python" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Blinkit Sales Data Analysis</h3>
+                            <p>Interactive data analysis project exploring Blinkit sales trends, item performance, outlet characteristics, and customer preferences using Python, Pandas, Matplotlib, and Seaborn.</p>
+                            <div class="project-tech">
+                                <span>Excel</span>
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 - Python -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="tableau" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/swaggi.png" alt="Swiggy Sales Data Analysis">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://www.linkedin.com/posts/karan-kumar-595424287_dataanalytics-python-businessanalytics-activity-7433034809125326848-sA9U?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWm4EEBPeW_YkedeUca36TyjvM_eHEplEU" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/karankrtech-08/swiggy-sales-analysis-python" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Swiggy Sales Data Analysis</h3>
+                            <p>Python data analysis project exploring Swiggy sales trends, customer ordering behavior, restaurant performance, KPI metrics, and time-series patterns through exploratory data analysis and data visualization.</p>
+                            <div class="project-tech">
+                                <span>Tableau</span>
+                                <span>HR Data</span>
+                                <span>Calculated Fields</span>
+                                <span>Storytelling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 7 - Python -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="powerbi" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/segment.png" alt="Customer Segmentation Using K‑Means Clustering">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#https://www.linkedin.com/posts/karan-kumar-595424287_interninfobyte-customersegmentation-machinelearning-activity-7443206538913103872-V-a8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWm4EEBPeW_YkedeUca36TyjvM_eHEplEU" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/karankrtech-08/INIB_DA_2.Customer-Segmentation-KMeans" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Customer Segmentation Using K‑Means Clustering</h3>
+                            <p>Machine learning project that segments customers into distinct groups based on income and spending behavior using K-Means Clustering, enabling data-driven marketing and customer retention strategies..</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Machine Learning</span>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 8 - Python -->
+                <div class="col-lg-4 col-md-6 project-item" data-category="python" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/Projects/Sales.png" alt="Sales Data Analysis">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://www.linkedin.com/posts/karan-kumar-595424287_interninfobyte-dataanalysis-python-activity-7442200284086333441-Ws9g?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWm4EEBPeW_YkedeUca36TyjvM_eHEplEU" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/karankrtech-08/-INIB_DA_1.SALES-DATA-ANALYSIS" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sales Data Analysis -retail sales dataset (Kaggle Superstore)</h3>
+                            <p>Data analysis project exploring retail sales trends, seasonal patterns, product category performance, and revenue insights using Python, statistical analysis, and data visualization techniques.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                                <span>Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="brand-dot"></span>
+                        <span>Karan Kumar</span>
+                    </a>
+                    <p>Transforming data into decisions, one insight at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#skills">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i>Karankrtech@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 (829) 442-1965</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Jaipur Rajasthan ,India</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-kaggle"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Karan Kumar. All rights reserved. Designed with <i class="fas fa-heart"></i> for data storytelling.</p>
+                <a href="#top" class="back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING BUTTONS -->
+    <a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat on WhatsApp</span>
+    </a>
+    
+    <a href="#" id="scrollToTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
